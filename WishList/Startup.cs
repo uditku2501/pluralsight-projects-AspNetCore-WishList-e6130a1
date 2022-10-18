@@ -38,10 +38,7 @@ namespace WishList
             app.UseEndpoints(
                 endpoints => { endpoints.MapDefaultControllerRoute(); }
             );
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+          
         }
     }
 }
